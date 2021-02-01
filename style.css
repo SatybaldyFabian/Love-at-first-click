@@ -1,0 +1,13 @@
+body {
+  background-color: grey;
+}
+
+p.solid {
+  border-style: solid;
+  height: 69px;
+  font-size: 25px;
+}
+
+p.text {
+  margin: right;
+}
