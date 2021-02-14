@@ -10400,6 +10400,24 @@ left: 650px;
   list-style-type: square;
 }
 
+.unorderedListBulletPros {
+  text-align: left;
+  list-style-type: square;
+  color: green;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 50px;
+}
+
+.unorderedListBulletCons {
+  text-align: left;
+  list-style-type: square;
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 50px;
+}
+
 .letter-size {
   font-size: 20px;
 }
