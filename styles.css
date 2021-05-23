@@ -10426,3 +10426,17 @@ left: 650px;
 .letter-size {
   font-size: 20px;
 }
+
+@media (orientation: portrait)
+{
+  .masthead{
+    background-size: cover;
+  }
+  .tinder{
+    width: 250px;
+    height: 140px;
+    position: relative;
+    left: 25%;
+  transform: translateX(38%);
+  }
+}
