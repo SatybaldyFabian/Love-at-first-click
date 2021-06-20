@@ -10224,8 +10224,9 @@ body {
           background-clip: text;
 }
 .masthead h2 {
-  max-width: 20rem;
-  font-size: 1rem;
+  max-width: 38rem;
+  font-size: 1.5rem;
+  margin-top: 90px !important;
 }
 @media (min-width: 768px) {
   .masthead h1 {
@@ -10245,7 +10246,7 @@ body {
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 
