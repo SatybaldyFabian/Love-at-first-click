@@ -30,54 +30,27 @@
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
                         <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About Us</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="liveChat.html" onclick=showChat()>Live Chat</a></li>
-                        <!--<li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="liveChat.html">Live Chat</a></li>-->
+                        <li class="nav-item px-lg-4"><a id="liveChatButton" class="nav-link text-uppercase" click="showChat()">Live Chat</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section class="page-section clearfix">
-            <div class="container">
-                <div class="intro">
-                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="assets/img/Family_Portrait.jpg" alt="..." />
-                    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Welcome to</span>
-                            <span class="section-heading-lower">Fabob</span>
-                        </h2>
-                        <p class="mb-3">What is Fabob? Fabob is a dating platform for everyone. It doesn't matter how old you are or where you come from. They are people in ervery age group and from diffrent countrys. Of course people under 18 are not on this platform.</p>
-                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Live Chat!</a></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="page-section cta">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <div class="cta-inner bg-faded text-center rounded">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Our Promise</span>
-                                <span class="section-heading-lower">To You</span>
-                            </h2>
-                            <p class="mb-0">You will find to 100 procent somebody on this website.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <footer class="footer text-faded text-center py-5">
             <div class="container"><p class="m-0 small">Copyright &copy; Fabob 2021</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
+        <!--<script src="js/scripts.js"></script>-->
         <script>
             function showChat()
             {
-                window.location.replace("localhost:3000");
+                location.replace("http:/172.17.221.117:3000/");
+                console.log("cocc");
             }
+
+            document.getElementById("liveChatButton").addEventListener("click", showChat);
         </script>
-        <!--<script src="js/scripts.js"></script>-->
     </body>
 </html>
