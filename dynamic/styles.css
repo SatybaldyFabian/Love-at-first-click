@@ -10225,7 +10225,7 @@ body {
 }
 .masthead h2 {
   max-width: 38rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem !important;
   margin-top: 90px !important;
 }
 @media (min-width: 768px) {
@@ -10468,5 +10468,9 @@ left: 650px;
   }
   .ProsAndCons-section{
     padding-bottom: 0px;
+  }
+  .text-white-50 mx-auto mt-2 mb-5
+  {
+    font-size: 1.5rem;
   }
 }
