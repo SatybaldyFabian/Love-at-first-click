@@ -471,7 +471,7 @@ mark,
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -10225,7 +10225,7 @@ body {
 }
 .masthead h2 {
   max-width: 38rem;
-  font-size: 1.3rem !important;
+  font-size: 1.5rem;
   margin-top: 90px !important;
 }
 @media (min-width: 768px) {
@@ -10472,5 +10472,9 @@ left: 650px;
   .text-white-50 mx-auto mt-2 mb-5
   {
     font-size: 1.5rem;
+  }
+  .masthead h2
+  {
+    font-size: 1.3rem !important;
   }
 }
