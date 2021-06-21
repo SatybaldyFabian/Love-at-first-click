@@ -1,3 +1,4 @@
+
 import React, { useRef, useState } from 'react';
 import './App.css';
 
@@ -10,7 +11,13 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  // your config
+    apiKey: "AIzaSyDBsp8zEuzgXb_gcntNn9klYxW2TT1ReJk",
+    authDomain: "loveatfirstclickchat.firebaseapp.com",
+    projectId: "loveatfirstclickchat",
+    storageBucket: "loveatfirstclickchat.appspot.com",
+    messagingSenderId: "418065027691",
+    appId: "1:418065027691:web:e134756d06c1c8f647172e",
+    measurementId: "G-6E0H3ZJLYS"
 })
 
 const auth = firebase.auth();
@@ -25,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
+        <h1>LoveChat💖</h1>
         <SignOut />
       </header>
 
@@ -99,7 +106,7 @@ function ChatRoom() {
 
       <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
 
-      <button type="submit" disabled={!formValue}>🕊️</button>
+      <button type="submit" disabled={!formValue}>✅</button>
 
     </form>
   </>)
